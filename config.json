@@ -1,0 +1,50 @@
+{
+  "sites": [
+    {
+      "name": "人民网经济频道",
+      "key": "finance",
+      "url": "http://finance.people.com.cn/",
+      "domain": "http://finance.people.com.cn",
+      "areas": [
+        { "name": "头条区", "selector": "div.title.mt15", "icon": "📰" },
+        { "name": "焦点图区", "selector": "div.focus_list", "icon": "🖼️" },
+        { "name": "右侧文字链", "selector": "div.news_box", "icon": "🔗" }
+      ],
+      "articleUrlPattern": "/n1/\\d{4}/\\d{6}/c\\d+-\\d+\\.html$",
+      "topicUrlPattern": "/GB/"
+    },
+    {
+      "name": "人民网文旅频道",
+      "key": "ent",
+      "url": "http://ent.people.com.cn/",
+      "domain": "http://ent.people.com.cn",
+      "areas": [
+        { "name": "头条区", "selector": "div.title.mt15", "icon": "📰" },
+        { "name": "焦点图区", "selector": "div.focus_list", "icon": "🖼️" },
+        { "name": "右侧文字链", "selector": "div.news_box", "icon": "🔗" }
+      ],
+      "articleUrlPattern": "/n1/\\d{4}/\\d{6}/c\\d+-\\d+\\.html$",
+      "topicUrlPattern": "/GB/"
+    },
+    {
+      "name": "人民网健康频道",
+      "key": "health",
+      "url": "http://health.people.com.cn/",
+      "domain": "http://health.people.com.cn",
+      "areas": [
+        { "name": "头条区", "selector": "div.title.mt15", "icon": "📰" },
+        { "name": "焦点图区", "selector": "div.focus_list", "icon": "🖼️" },
+        { "name": "右侧文字链", "selector": "div.news_box", "icon": "🔗" }
+      ],
+      "articleUrlPattern": "/n1/\\d{4}/\\d{6}/c\\d+-\\d+\\.html$",
+      "topicUrlPattern": "/GB/"
+    }
+  ],
+  "global": {
+    "maxTitleLen": 30,
+    "requestTimeout": 10000,
+    "requestDelayMs": 300,
+    "reportsDir": "reports/",
+    "checkBadChar": true
+  }
+}

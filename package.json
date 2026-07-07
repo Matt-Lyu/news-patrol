@@ -1,0 +1,15 @@
+{
+  "name": "news-patrol",
+  "version": "1.0.0",
+  "description": "新闻网站页面巡查工具",
+  "main": "index.js",
+  "scripts": {
+    "patrol": "node index.js",
+    "patrol:finance": "node index.js --site finance",
+    "patrol:ent": "node index.js --site ent",
+    "patrol:health": "node index.js --site health"
+  },
+  "dependencies": {
+    "node-html-parser": "^7.0.0"
+  }
+}
